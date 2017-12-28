@@ -4,7 +4,7 @@ a {color: #81a2be; text-decoration: none; padding-right: 3px; padding-left: 3px}
 a:hover {color: #b294bb}
 a.hiddenish { color: #cfcfcf; }
 
-#wrap {width: 80%; background: #181818; border: 1px solid #2a2a2a; margin: auto; padding: 15px; margin-top: 5%}
+#wrap {width: 80%; background: #181818; border: 1px solid #2a2a2a; border-radius: 12px; margin: auto; padding: 15px; margin-top: 5%}
 .row {margin-bottom: 8px}
 
 .button.button-primary,
