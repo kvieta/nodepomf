@@ -3,7 +3,7 @@ extends layout
 block content
   // Summary block
   .summary
-    .container
+    .container#wrap
       .row
         h2.title
           b= config.HELLO
@@ -12,5 +12,5 @@ block content
         form(enctype="multipart/form-data" method="post" action=config.UPLOAD_URL + "/upload.php?output=html")
           label.button.button-primary#nojs-upload-button
             input(type="file" name="files[]" multiple="")
-          input(type="submit" value="Submit")
+          input(class="button-primary" type="submit" value="Submit")
         p!= config.DESCRIPTION

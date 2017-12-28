@@ -13,19 +13,19 @@ html
     link(href='/stylesheets/normalize.css', rel='stylesheet')
     link(href='/stylesheets/skeleton.css', rel='stylesheet')
     link(href='/stylesheets/custom.css', rel='stylesheet')
+    link(href='/stylesheets/lycidas.css', rel='stylesheet')
     // Favicon
     link(href='/images/favicon.png', rel='icon', type='image/png')
     style(type='text/css').
       @media (min-width: 730px) {
         body {
-          background: url(#{grill}), url('/images/cream_dust.png');
+          background: url(#{grill}), color(#1a1a1a);
           background-size: 35vh, auto;
           background-position: 85% 100%, top left;
           background-repeat: no-repeat, repeat;
           background-attachment: fixed;
         }
-      }
-      .hidden {
+      }      .hidden {
           display:none;
       }
     block head

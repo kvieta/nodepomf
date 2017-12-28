@@ -30,7 +30,7 @@ block content
       
   // Summary block
   .summary
-    .container
+    .container#wrap
       .row
         h2.title
           b= config.HELLO
@@ -39,7 +39,7 @@ block content
         |       
         button.button-primary#upload-button
           | &nbsp; Select or drop file(s)…
-        button.u-pull-right.button#paste-button
+        button.u-pull-right.button.button-paste#paste-button
           | &nbsp; Paste…
         .hidden#paste-wrap
           textarea.u-full-width.u-max-full-width#paste-box(placeholder='Paste content…')
